@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,700');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.main{
+	background: #ccc;
+	width: 400px;
+	margin: 100px auto;
+	height: 175px;
+	position: relative;
+	padding: 30px;
+}
+
+.badge{
+	width: 96px;
+	background: #e66357;
+	color: white;
+	padding: 5px 10px;
+	font-family: sans-serif;
+	font-weight: bold;
+	position: absolute;
+	top: -15px;
+	left: 150px;
+}
+
+.clock{
+	background: #ebebeb;
+	text-align: center;
+	font-size: 45px;
+	height: 100%;
+	padding-top: 40px;
+	font-family: Orbitron;
+	border-radius: 4px;
+}
+
+body{
+	background-image: url("./bckgrd.jpg");
+	background-position: center center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
